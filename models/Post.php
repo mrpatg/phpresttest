@@ -14,7 +14,7 @@
         public $created_at;
 
         // Constructor with DB
-        public function __contstruct($db) {
+        public function __construct($db) {
             // Pass DB object to this class
             $this->conn = $db;
         }
