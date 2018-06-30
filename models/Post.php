@@ -38,7 +38,7 @@
                     p.created_ad DESC';
         
             // Prepare statement
-            $stmt = $this->conn-prepare($query);
+            $stmt = $this->conn->prepare($query);
 
             // Execute query
             $stmt->execute();
