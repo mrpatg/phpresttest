@@ -20,7 +20,7 @@
     $count = $result->rowCount();
 
     // Check if posts
-    if($num > 0) {
+    if($count > 0) {
         // Post array
         $posts_arr = array();
         $posts_arr['data'] = array();
